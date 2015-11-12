@@ -79,6 +79,11 @@ I decided to take this literally, and attempt to subtract the images from eachot
 redacted@redacted> convert mystery1.png mystery2.png -compose d
 ifference -composite -colorspace Gray new.png
 ```
+
+
+[](img/new.png)
+
+
 And we get a picture with the flag
 ```
 flag: easyctf{PRETTY_PIXEL_MATH}
