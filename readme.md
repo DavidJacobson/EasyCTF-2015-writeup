@@ -3,6 +3,7 @@ This is a writeup for EasyCTF 2015.
 ##[Programming](programming.md)
 ##[Web](web.md)
 ##[Binary Exploitation](binary_exploitation.md)
+##[Cryptography](crypto.md)
 
 Firstly, the easter eggs!
 
