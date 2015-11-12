@@ -81,7 +81,7 @@ ifference -composite -colorspace Gray new.png
 ```
 
 
-[](img/new.png)
+[](/img/new.png)
 
 
 And we get a picture with the flag
