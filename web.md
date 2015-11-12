@@ -166,7 +166,7 @@ admin' --
 ```
 What this does is close the ' in the query, and then comment out the rest, so the query looks like:
 ```sql
-$query = "SELECT * FROM `users` WHERE username='admin' -- ' AND password='$password'";
+SELECT * FROM `users` WHERE username='admin' -- ' AND password='$password'
 ```
 Done
 ```
