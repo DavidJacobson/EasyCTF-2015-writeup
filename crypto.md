@@ -40,7 +40,7 @@ for each in dec:
 	print "|".join(each) # Print out a graph
 
 ```
-Now we have all the possible values for each char, and it looks like this:
+Now we have all the possible values for each char, and it looks like this: (I put my guesses next to each place)
 ```
 c|d|e e 
 a|b|` a 
