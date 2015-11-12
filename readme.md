@@ -1,5 +1,8 @@
 This is a writeup for EasyCTF 2015. 
 -------------------------
+##[Programming](programming.md)
+##[Web](web.md)
+
 Firstly, the easter eggs!
 
 
