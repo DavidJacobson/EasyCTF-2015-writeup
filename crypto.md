@@ -70,3 +70,16 @@ We know the first characters will be easyctf{ and the last will be }, and from t
 ```
 flag: easyctf{fl00r_d1visi0n}
 ```
+
+Pixels - 180 pts
+--------------
+This problem had two images, both titled 'mystery' with just a - between them.
+I decided to take this literally, and attempt to subtract the images from eachother. This was acomplished using imagemagick, 
+```zsh
+redacted@redacted> convert mystery1.png mystery2.png -compose d
+ifference -composite -colorspace Gray new.png
+```
+And we get a picture with the flag
+```
+flag: easyctf{PRETTY_PIXEL_MATH}
+```
