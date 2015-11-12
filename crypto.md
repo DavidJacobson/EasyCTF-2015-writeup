@@ -81,7 +81,7 @@ ifference -composite -colorspace Gray new.png
 ```
 
 
-[](/img/new.png)
+![lolmd](https://raw.githubusercontent.com/DavidJacobson/EasyCTF-2015-writeup/master/img/new.png)
 
 
 And we get a picture with the flag
