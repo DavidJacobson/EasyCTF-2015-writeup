@@ -23,7 +23,14 @@ plt.axis('off') # Don't interfere with the code
 plt.show()
 ```
 And sure enough the out put was a perfect qr code
-#ADD QR PICTURE
+![lolmd](https://github.com/DavidJacobson/EasyCTF-2015-writeup/blob/master/img/figure_2.png)
+Now we just need to scan it using [this](https://zxing.org/w/decode)
+
+
+| Raw text        | easyctf{bet_y0u_read_that_wiki_page}           |
+| ------------- |:-------------:|
+| Raw bytes| 42 46 56 17 37 96 37 46   67 b6 26 57 45 f7 93 07 55 f7 26 56 16 45 f7 46   86 17 45 f7 76 96 b6 95 f7 06 16 76 57 d0 ec 11 	| 	   |ec 11 ec 11 ec 11 ec 11 ec 11 ec 11 ec 11 ec |
+
 ```
-flag: 
+flag: easyctf{bet_y0u_read_that_wiki_page} 
 ```
